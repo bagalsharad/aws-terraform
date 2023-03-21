@@ -9,5 +9,6 @@ resource "aws_instance" "EC2_First" {
    #subnet_id = "${var.subnet_id}"
    tags =  {
       Name = "EC2 Instance Terraform"
+      description =""
    }
 }
