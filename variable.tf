@@ -1,11 +1,3 @@
-variable "access_key" {
-        description = "Access key to AWS console"
-        default ="AKIAR77Q6FRLTSDZQY67"
-}
-variable "secret_key" {
-        description = "Secret key to AWS console"
-        default ="MWAjGqPJffcIahnBWX+7cyL5lj2EOAQ6927YV7XS"
-}
 
 
 variable "instance_name" {
